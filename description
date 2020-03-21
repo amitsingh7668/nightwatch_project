@@ -3,3 +3,6 @@ install nightwatch (npm install nightwatch)
 install dependencies package.json
 npm install 
 nightwatch --tag feature_name
+
+
+NOTE:--- message: 'session not created: Chrome version must be between 71 and 75\n
