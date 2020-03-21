@@ -1,0 +1,5 @@
+install node.js
+install nightwatch (npm install nightwatch)
+install dependencies package.json
+npm install 
+nightwatch --tag feature_name
