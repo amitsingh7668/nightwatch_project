@@ -1,0 +1,121 @@
+[
+  {
+    "elements": [
+      {
+        "id": "this-is-a-smoke-scenarios-for-hri;perform-ui-verification-on-employee-load-page-–bad-file-load",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Perform UI verification on Employee load page –Bad file load",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User opens URL of consultant portal and the select required client",
+            "result": {
+              "status": "failed",
+              "duration": 4542351069,
+              "error_message": "{ message: 'Connection refused! Is selenium server started?\\n',\n  data: \n   { value: \n      { message: 'session not created: Chrome version must be between 71 and 75\\n  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\\nCommand duration or timeout: 2.91 seconds\\nBuild info: version: \\'3.11.0\\', revision: \\'e59cfb3\\', time: \\'2018-03-11T20:33:15.31Z\\'\\nSystem info: host: \\'DESKTOP-I5ULKBO\\', ip: \\'192.168.0.4\\', os.name: \\'Windows 10\\', os.arch: \\'amd64\\', os.version: \\'10.0\\', java.version: \\'13.0.1\\'\\nDriver info: driver.version: unknown',\n        error: 'session not created' },\n     status: 33 } }"
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User selects account",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:230"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User select Employee tab and click next tab",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:253"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User select wrong file and try to upload",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User export error file and check errors",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:169"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User select correct file and try to upload",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User remove file after getting successful message",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\step_definitions\\HRI.js:125"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRI",
+            "line": 33
+          },
+          {
+            "name": "@broker_portal",
+            "line": 33
+          },
+          {
+            "name": "@basic4",
+            "line": 33
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-is-a-smoke-scenarios-for-hri",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "This is a smoke scenarios for HRI",
+    "tags": [],
+    "uri": "C:\\Users\\mr_perfect\\WebstormProjects\\hri\\features\\Sample_Project\\HRI.feature"
+  }
+]
